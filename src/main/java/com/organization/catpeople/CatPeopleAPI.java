@@ -12,7 +12,6 @@ import javax.ws.rs.container.Suspended;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.organization.catpeople.model.CatOwner;
 import com.txmq.aviator.messaging.AviatorMessage;
 import com.txmq.aviator.messaging.AviatorTransactionType;
 import com.txmq.aviator.pipeline.ReportingEvents;

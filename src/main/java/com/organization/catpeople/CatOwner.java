@@ -1,4 +1,4 @@
-package com.organization.catpeople.model;
+package com.organization.catpeople;
 
 import java.io.Serializable;
 

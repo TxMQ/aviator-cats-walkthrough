@@ -4,8 +4,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.organization.catpeople.model.CatOwner;
-import com.organization.catpeople.state.CatPeopleState;
 import com.txmq.aviator.messaging.AviatorMessage;
 import com.txmq.aviator.pipeline.PlatformEvents;
 import com.txmq.aviator.pipeline.metadata.AviatorHandler;

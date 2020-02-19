@@ -1,6 +1,6 @@
 
 import com.hedera.hashgraph.sdk.HederaStatusException;
-import com.organization.catpeople.state.CatPeopleState;
+import com.organization.catpeople.CatPeopleState;
 import com.txmq.aviator.core.Aviator;
 import com.txmq.aviator.core.hcs.AviatorHCSConsensus;
 

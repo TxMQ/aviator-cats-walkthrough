@@ -10,7 +10,6 @@ import com.txmq.aviator.pipeline.metadata.AviatorSubscriber;
 import com.txmq.aviator.pipeline.subscribers.AviatorSubscriberBase;
 
 import com.organization.catpeople.CatPeopleTransactionTypes;
-import com.organization.catpeople.model.CatOwner;
 
 public class CatPeopleResponders extends AviatorSubscriberBase<AsyncResponse> {
 	

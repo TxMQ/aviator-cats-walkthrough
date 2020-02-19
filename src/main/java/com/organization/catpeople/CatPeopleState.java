@@ -1,10 +1,9 @@
-package com.organization.catpeople.state;
+package com.organization.catpeople;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.organization.catpeople.model.CatOwner;
 import com.txmq.aviator.core.AviatorStateBase;
 
 public class CatPeopleState extends AviatorStateBase {
