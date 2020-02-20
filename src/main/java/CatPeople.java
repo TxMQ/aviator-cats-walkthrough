@@ -2,6 +2,7 @@
 import com.hedera.hashgraph.sdk.HederaStatusException;
 import com.organization.catpeople.CatPeopleState;
 import com.txmq.aviator.core.Aviator;
+import com.txmq.aviator.core.AviatorTestConsensus;
 import com.txmq.aviator.core.hcs.AviatorHCSConsensus;
 
 public class CatPeople {
@@ -13,11 +14,15 @@ public class CatPeople {
 	 */
 	public static void main(String[] args) {
 		try {
+			//Use this line to run with test consensus
 			//AviatorTestConsensus consensus = new AviatorTestConsensus();
+			
+			//Use this line to run with HCS consensus
 			AviatorHCSConsensus consensus = new AviatorHCSConsensus();
+			
 			consensus.initState(CatPeopleState.class);
 			Aviator.init(consensus);
-		} catch (ReflectiveOperationException | HederaStatusException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
